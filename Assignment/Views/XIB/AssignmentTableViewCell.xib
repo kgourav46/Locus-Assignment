@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssignmentTableViewCell" rowHeight="64" id="KGk-i7-Jjw" customClass="AssignmentTableViewCell" customModule="Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="379" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wFb-lV-1DC">
+                        <rect key="frame" x="10" y="12" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="T4d-fP-7MV"/>
+                            <constraint firstAttribute="height" constant="40" id="mG4-lc-sBl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bI4-yR-Qh7">
+                        <rect key="frame" x="58" y="8" width="270.5" height="27.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" name="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qy8-qY-aLq">
+                        <rect key="frame" x="58" y="39.5" width="273.5" height="16.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" name="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EF0-Ij-Wxu">
+                        <rect key="frame" x="336.5" y="13.5" width="34.5" height="16.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" name="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Di5-OE-2B1">
+                        <rect key="frame" x="339.5" y="40.5" width="31.5" height="14.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" name="dateTimeColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="backgroundColor"/>
+                <constraints>
+                    <constraint firstItem="Di5-OE-2B1" firstAttribute="centerY" secondItem="Qy8-qY-aLq" secondAttribute="centerY" id="32G-IG-czk"/>
+                    <constraint firstItem="bI4-yR-Qh7" firstAttribute="leading" secondItem="wFb-lV-1DC" secondAttribute="trailing" constant="8" id="HG4-dd-Sem"/>
+                    <constraint firstItem="Di5-OE-2B1" firstAttribute="trailing" secondItem="EF0-Ij-Wxu" secondAttribute="trailing" id="KNa-3J-vDd"/>
+                    <constraint firstAttribute="bottom" secondItem="Qy8-qY-aLq" secondAttribute="bottom" constant="8" id="QcK-iD-KEG"/>
+                    <constraint firstItem="wFb-lV-1DC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="TUg-bc-h2D"/>
+                    <constraint firstItem="wFb-lV-1DC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="bv6-fS-TlM"/>
+                    <constraint firstItem="Qy8-qY-aLq" firstAttribute="leading" secondItem="bI4-yR-Qh7" secondAttribute="leading" id="eDx-Nu-nTg"/>
+                    <constraint firstItem="EF0-Ij-Wxu" firstAttribute="leading" secondItem="bI4-yR-Qh7" secondAttribute="trailing" constant="8" id="g97-ts-4qM"/>
+                    <constraint firstItem="EF0-Ij-Wxu" firstAttribute="centerY" secondItem="bI4-yR-Qh7" secondAttribute="centerY" id="l5V-bM-Sxp"/>
+                    <constraint firstItem="Di5-OE-2B1" firstAttribute="leading" secondItem="Qy8-qY-aLq" secondAttribute="trailing" constant="8" id="r1c-2K-VrP"/>
+                    <constraint firstItem="bI4-yR-Qh7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="t5r-4e-2xj"/>
+                    <constraint firstAttribute="trailing" secondItem="EF0-Ij-Wxu" secondAttribute="trailing" constant="8" id="u5x-dJ-mfv"/>
+                    <constraint firstItem="Qy8-qY-aLq" firstAttribute="top" secondItem="bI4-yR-Qh7" secondAttribute="bottom" constant="4" id="w4D-Qh-UF1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateTimeLabel" destination="Di5-OE-2B1" id="jdj-ph-MZV"/>
+                <outlet property="weatherDescriptionLabel" destination="Qy8-qY-aLq" id="zVK-DV-cPv"/>
+                <outlet property="weatherImageView" destination="wFb-lV-1DC" id="ZGO-Ru-LFd"/>
+                <outlet property="weatherStatusLabel" destination="bI4-yR-Qh7" id="Uuu-l3-GK4"/>
+                <outlet property="weatherTempLabel" destination="EF0-Ij-Wxu" id="nt2-OS-TGD"/>
+            </connections>
+            <point key="canvasLocation" x="180.43478260869566" y="102.45535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="backgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="dateTimeColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
